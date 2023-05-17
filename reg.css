@@ -1,0 +1,74 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:white smoke(217, 10, 89);
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: rgb(15, 15, 15);
+}
+.back{
+    padding: 20px;
+    height: 550px;
+    border-radius: 5px;
+    background-color: rgb(25, 161, 198);
+    width: 344px;
+    padding-right: 40px;
+    
+}
+label{
+    display: block;
+    margin:2px;
+    font-weight: bold;
+}
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=password],
+textarea{
+    padding: 8px;
+    border:1px solid rgb(85, 160, 170);
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 2px;
+
+}
+select{
+    width:100%;
+    padding: 8px;
+    border:1px solid whitesmoke;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    color: aliceblue;
+    background-color:green;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border-radius: 45px;
+
+}
+input[type="submit"]:hover{
+    background-color:rgba(28, 145, 223, 0.932)
+
+}
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+body
+{
+   background-color: rgb(13, 211, 108);
+}
+.mahi{
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
